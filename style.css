@@ -1,0 +1,57 @@
+/* CSS reset */
+
+* {
+    /* box-sizing: inherit; */
+    margin: 0;
+    padding: 0;
+}
+
+/* Base Typography Styles */
+html,
+body {
+    font-family:  sans-serif,arial;
+    line-height: 1.6;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+.info{
+    margin-bottom: 5rem;
+}
+
+.head h1,h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 900;
+}
+
+.q p{
+    font-size: 1.6rem;
+}
+
+.phone,.name p {
+    font-size: 1.6rem;
+}
+
+.bullet{
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.edu{
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+
+.detail-exp{
+    padding: 0 5rem;
+}
